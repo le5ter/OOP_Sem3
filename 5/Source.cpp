@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+	system("chcp 1251");
 	Triangle* A = new RightTriangle();
 	A->print();
 	double s = A->Square();
