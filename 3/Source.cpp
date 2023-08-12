@@ -17,14 +17,14 @@ int main() {
 	result = first.count_accured_amount();
 	result1 = first.count_amount_withheld();
 	result2 = first.count_final_summ();
-	cout << "����������� �����: ";
+	cout << "Начисленная сумма: ";
 	result.print();
-	cout << "���������� �����: ";
+	cout << "Удержанная сумма: ";
 	result1.print();
-	cout << "���������� �� ���� �����: ";
+	cout << "Выдаваемая на руки сумма: ";
 	result2.print();
 	result3 = first.count_experience();
-	cout << "���� ������: " << result3 << endl;
+	cout << "Стаж работы: " << result3 << endl;
 
 	return 0;
 }
